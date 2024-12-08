@@ -1,4 +1,9 @@
-# clip-board
+# Clip Board v1.0
+Projeto pessoal. Desenvolvido para suprir uma demandanda minha, sendo uma alternativa melhor que o "Teclado Virtual" do sistema.
+
+No momento ele está bem simples, possúi apenas uma tecla de atalho "Shift+X" ou "Cmd+X" que precisado com o Aplicativo em foco, encerra o mesmo.
+
+Tenho a pretenção de expandir ele, adicionando atalhos para alterar a posiçõo da janela e a possibilidade de personalizar os botões da Aplicação.
 
 ## Project setup
 ```
@@ -10,15 +15,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles for build
 ```
-npm run build
+npm run electron:build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
