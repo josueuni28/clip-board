@@ -48,9 +48,6 @@ export default {
   margin: 0px;
   padding: 0px;
 }
-body{
-  background-color: black;
-}
 .agrBtns {
   display: flex;
   height: 100vh;

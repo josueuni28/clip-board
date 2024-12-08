@@ -1,4 +1,4 @@
-# Clip Board v1.0
+# Clip Board v1.1
 Projeto pessoal. Desenvolvido para suprir uma demandanda minha, sendo uma alternativa melhor que o "Teclado Virtual" do sistema.
 
 No momento ele está bem simples, possúi apenas uma tecla de atalho "Shift+X" ou "Cmd+X" que pressionado com o Aplicativo em foco, encerra o mesmo.

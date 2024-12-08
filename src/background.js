@@ -48,6 +48,7 @@ async function createWindow() {
     width: 500,
     height: 90,
     titleBarStyle: 'hidden',
+    transparent: true,
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
@@ -69,7 +70,7 @@ async function createWindow() {
   const display = screen.getPrimaryDisplay().workAreaSize
   win.setPosition(display.width-500, display.height-90)
   win.setTitle(`${title} v${version}`)
-
+  // win.setBackgroundColor('blueviolet')
 
   win.setAlwaysOnTop(true)
 
